@@ -1,0 +1,11 @@
+# ignore all .a files but not lib.a
+*.a
+!lib.a
+# ignore and .pdf file under doc or it's subdirs
+doc/**/*.pdf
+# ignore .txt files right under doc dir
+doc/*.txt
+# ignore the build dir
+build/
+# ignore the todo file not the dir
+/todo
